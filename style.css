@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* nav styles */
+.nav-container {
+  display: flex;
+  background: gray;
+  padding: 15px;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-items > ul {
+  display: flex;
+  gap: 15px;
+  font-size: 17px;
+  list-style: none;
+}
+.nav-items > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+/* banner styles */
+.banner-container {
+  height: 100vh;
+  background-image: url("asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
